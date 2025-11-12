@@ -22,7 +22,7 @@
     { "title": "Artificial Intelligence Fundamentals", "url": "#" }
   ],
   "portfolio": [
-    { "title": "WordWave", "type": "web", "image": "assets/logo.png", "description": "E-library Platform where user can browse,search and manage their E-books.", "demo": "#", "code": "https://github.com/vedantpjoshi/WordWave_web" }
+    { "title": "WordWave", "type": "web", "image": "assets/Logo.png", "description": "E-library Platform where user can browse,search and manage their E-books.", "demo": "#", "code": "https://github.com/vedantpjoshi/WordWave_web" }
   ],
   "contactNote": "I'm always open to discussing new projects, ideas, or opportunities.",
   "contactMethods": [
