@@ -1,0 +1,37 @@
+{
+  "name": "Vedant Joshi",
+  "email": "vedantpjoshi510@gmail.com",
+  "location": "Surat, Gujarat",
+  "available": "Freelance",
+  "tagline": "Crafting web and mobile apps with clean design and real impact.",
+  "intro": "A Software Engineer specializing in Android development. I build reliable, performant, and user‑friendly solutions.",
+  "aboutDescription": "Passionate Software Engineer with hands‑on experience delivering functional and well‑structured solutions in Android development. I focus on clean, efficient code and continuous learning.",
+  "resumeUrl": "#",
+  "linkedin": "https://linkedin.com/in/vedant-joshi-03a99838a/?skipRedirect=true",
+  "github": "#",
+  "services": [
+    { "title": "Web Development", "description": "Responsive, modern sites with clean code and user‑friendly design." },
+    { "title": "App Development", "description": "Android and cross‑platform apps focusing on performance and UX." },
+    { "title": "Database & Backend", "description": "Secure databases and well‑structured APIs for web/mobile apps." },
+    { "title": "Maintenance & Optimization", "description": "Improve performance, fix bugs, and keep systems reliable." }
+  ],
+  "skills": ["JavaScript", "TypeScript", "React", "Node.js", "HTML/CSS", "Tailwind", "Flutter", "Dart", "Python", "Git/GitHub"],
+  "certificates": [
+    { "title": "Distributed Version Control Using Git", "url": "https://drive.google.com/file/d/1gqasaO5esnuKvEj1dnwqA-L3eCsEYUV5/view" },
+    { "title": "Generative AI", "url": "https://drive.google.com/file/d/1Lt2Aq3loxYkLCUvvQv9H_j0wesgop7y6/view" },
+    { "title": "Artificial Intelligence Fundamentals", "url": "#" }
+  ],
+  "portfolio": [
+    { "title": "WordWave", "type": "web", "image": "assets/logo.png", "description": "E-library Platform where user can browse,search and manage their E-books.", "demo": "#", "code": "https://github.com/vedantpjoshi/WordWave_web" }
+  ],
+  "contactNote": "I'm always open to discussing new projects, ideas, or opportunities.",
+  "contactMethods": [
+    { "type": "email", "label": "Email", "value": "vedantpjoshi510@gmail.com", "href": "mailto:vedantpjoshi510@gmail.com" },
+    { "type": "linkedin", "label": "LinkedIn", "value": "linkedin.com/in/vedant-joshi-03a99838a", "href": "https://linkedin.com/in/vedant-joshi-03a99838a/?skipRedirect=true" },
+    { "type": "instagram", "label": "Instagram", "value": "@vedant_p_joshi", "href": "https://instagram.com/vedant_p_joshi" },
+    { "type": "whatsapp", "label": "WhatsApp", "value": "+91 70463044526", "href": "https://wa.me/7046344526" },
+    { "type": "location", "label": "Location", "value": "Surat, Gujarat" }
+  ]
+}
+
+

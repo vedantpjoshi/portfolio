@@ -1,0 +1,25 @@
+<button id="openProfile" class="profile-link"
+        aria-controls="profileDrawer" aria-expanded="false">
+  My Profile
+</button>
+
+<!-- Drawer -->
+<div class="drawer" id="profileDrawer" role="dialog" aria-modal="true"
+     aria-labelledby="drawerTitle" aria-hidden="true">
+  <div class="drawer__overlay" data-close></div>
+
+  <aside class="drawer__panel">
+    <header class="drawer__header">
+      <h2 id="drawerTitle">My Profile</h2>
+      <button class="drawer__close" data-close aria-label="Close">&times;</button>
+    </header>
+
+    <nav class="drawer__content">
+      <ul>
+        <li><a href="/profile">View Profile</a></li>
+        <li><a href="/settings">Settings</a></li>
+        <li><button type="button">Sign out</button></li>
+      </ul>
+    </nav>
+  </aside>
+</div>

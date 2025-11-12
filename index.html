@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vedant Joshi • Portfolio</title>
+    <meta name="description" content="Portfolio of Vedant Joshi — Software Engineer building web and mobile experiences." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.png" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top">Vedant</a>
+        <nav class="nav" id="nav">
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+          <ul class="nav-list" id="navList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home / Hero -->
+      <section id="home" class="section hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Hi, I'm</p>
+            <h1 id="nameHeading">Vedant Joshi 👋</h1>
+            <h2 class="subtitle" id="tagline">Crafting web and mobile apps with clean design and real impact.</h2>
+            <p class="lead" id="intro">
+              A Software Engineer specializing in Android development. I build reliable, performant, and user‑friendly solutions.
+            </p>
+            <div class="hero-ctas">
+              <a id="connectBtn" class="btn primary" href="https://linkedin.com/in/vedant-joshi-03a99838a/?skipRedirect=true" target="_blank" rel="noopener">Connect with me</a>
+              <a id="downloadResume" class="btn ghost" href="https://drive.google.com/file/d/1dw8cYK6FJEPPJAhK3TvqXPV_ESZcdp3O/view?usp=drivesdk" target="_blank" rel="noopener">Download Resume</a>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img src="assets/you.jpg" alt="Portrait of Vedant Joshi" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h3>About Me</h3>
+            <p class="section-subtitle">Get to know me better</p>
+          </div>
+          <div class="about-grid">
+            <div>
+              <h4 id="aboutTitle">Software Engineer</h4>
+              <p id="aboutDescription">
+                Passionate Software Engineer with hands‑on experience delivering functional and well‑structured solutions across web and mobile. I focus on clean, efficient code and continuous learning.
+              </p>
+              <ul class="about-list" id="aboutMeta">
+                <li><strong>Name:</strong> <span id="metaName">Vedant Joshi</span></li>
+                <li><strong>Email:</strong> <a id="metaEmail" href="mailto:hello@example.com">hello@example.com</a></li>
+                <li><strong>Location:</strong> <span id="metaLocation">India</span></li>
+                <li><strong>Available:</strong> <span id="metaAvailable">Freelance</span></li>
+              </ul>
+            </div>
+            <div class="about-actions">
+              <a class="btn" id="aboutResumeBtn" href="https://drive.google.com/file/d/1dw8cYK6FJEPPJAhK3TvqXPV_ESZcdp3O/view?usp=drivesdk" target="_blank" rel="noopener">Download Resume</a>
+              <a class="btn ghost" id="aboutLinkedInBtn" href="https://linkedin.com/in/vedant-joshi-03a99838a/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h3>Services</h3>
+            <p class="section-subtitle">What I offer</p>
+          </div>
+          <div class="cards" id="servicesList">
+            <!-- Populated via data.json -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills & Certificates -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h3>Skills & Certificates</h3>
+            <p class="section-subtitle">My expertise</p>
+          </div>
+          <div class="skills-wrap">
+            <div class="skills-block">
+              <h4>Skills</h4>
+              <div class="chip-group" id="skillsList">
+                <!-- Populated via data.json -->
+              </div>
+            </div>
+            <div class="skills-block">
+              <h4>Certificates</h4>
+              <div class="cert-list" id="certList">
+                <!-- Populated via data.json -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h3>Portfolio</h3>
+            <p class="section-subtitle">My recent work</p>
+          </div>
+          <div class="filter-tabs" id="portfolioFilters">
+            <button class="tab active" data-filter="all">All</button>
+            <button class="tab" data-filter="web">Web Development</button>
+            <button class="tab" data-filter="mobile">Mobile App</button>
+          </div>
+          <div class="grid" id="portfolioGrid">
+            <!-- Populated via data.json -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h3>Contact Me</h3>
+            <p class="section-subtitle">Let's work together</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-info" id="contactInfo">
+              <h4>Get in Touch</h4>
+              <p id="contactNote">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+              <div class="contact-cards" id="contactCards">
+                <!-- Populated via data.json -->
+              </div>
+            </div>
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn primary">Send Message</button>
+              <p class="form-note">This demo form does not send emails. It shows a success toast.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> <span id="footerName">Vedant Joshi</span>. All rights reserved.</p>
+        <div class="social">
+          <a href="https://linkedin.com/in/vedant-joshi-03a99838a/?skipRedirect=true" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="assets/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a id="footerGithub" href="#" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="assets/github.svg" alt="GitHub" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+  </html>
+
+
