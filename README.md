@@ -1,6 +1,6 @@
 ## Vedant Joshi – Portfolio
 
-Static, responsive portfolio site inspired by `https://yashitaliya.github.io/Portfolio/`.
+Static, responsive portfolio
 
 ### Edit your content
 - Update `data.json`:
